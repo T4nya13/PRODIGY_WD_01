@@ -1,0 +1,88 @@
+.nav-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.nav-buttons button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    background-color:#344955;
+    color: whitesmoke;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    display: flex;
+    align-items: center;
+    font-weight: 100;
+}
+.nav-buttons button i {
+    margin-right: 8px;
+}
+.nav-buttons button:hover {
+    background-color:#50727B;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color:white;
+}
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color:grey;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h2,
+h3 {
+    color: whitesmoke;
+}
+p {
+    margin-bottom: 1.5em;
+}
+ul {
+    padding-left: 20px;
+}
+
+.featured-stories {
+    margin-top: 20px;
+}
+
+.connect {
+    margin-top: 20px;
+}
+
+.footer {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 0.9em;
+    background-color: black;
+   
+}
+body{
+    background-image: url(Happiness.jpg);
+   
+}
+
+header{
+    background-color: #A0937D;
+   font-size: larger;
+width: 792px;
+    color: #333;
+}
+.logo{
+   font-size: larger;
+    align-items: left;
+    color: black;
+    border: #344955;
+    box-shadow: 2px black ;
+    background-color: #50727B;
+    font-family: Cambria;
+    width: 296px;
+}
